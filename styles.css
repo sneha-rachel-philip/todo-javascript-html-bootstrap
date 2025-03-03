@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-group {
+    max-width: 500px;
+    margin: auto;
+}
+
+.btn-group {
+    max-width: 500px;
+    margin: auto;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
